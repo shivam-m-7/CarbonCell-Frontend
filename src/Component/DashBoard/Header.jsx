@@ -14,7 +14,7 @@ const Header = () => {
       <FontAwesomeIcon icon={faBars} className='menu-icon' onClick={fnClickMenu}/>
       <div className="header-heading">
         <h1>Hello, Brooklyn Simmons 👋 </h1>
-        <h3>Welcome to Spot trading!</h3>
+        <h3>Welcome to <span>Spot trading!</span></h3>
       </div>
       <button>Start Trading</button>
     </div>
