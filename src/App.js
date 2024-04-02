@@ -1,10 +1,11 @@
 import './App.css';
-import Sidebar from './Components/Sidebar/Sidebar.jsx'
+import {Routes,Route} from 'react-router-dom';
+import Homepage from './Components/Homepage/Homepage';
 
 function App() {
   return (
     <div className="App">
-     <Sidebar/>    
+     <Homepage/>    
     </div>
   );
 }

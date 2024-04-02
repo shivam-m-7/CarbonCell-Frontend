@@ -1,0 +1,24 @@
+.graph_styling{
+    .recharts-wrapper{
+        width: 650px !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .graph_styling{
+        .recharts-wrapper{
+            width: 300px !important;
+        }
+
+    
+    }
+    .graph_styling h1{
+        font-size: 20px;
+        padding: 2px;
+    }
+
+    .recharts-legend-wrapper li{
+        margin-right: 230px !important;
+        font-size: larger I !important;
+    }
+}
