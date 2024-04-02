@@ -1,0 +1,84 @@
+.sidebar-container {
+    background-color: rgb(26,30,28);
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+  }  
+  .logo img {
+    width: 100px;
+  }  
+  .search-bar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(75, 75, 75);
+    width:100%;
+  }  
+  .search-bar input {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 10px;
+    flex: 1;
+  }
+  .search-bar input::placeholder{
+    color:rgb(192, 192, 192);
+  }  
+  .search-bar input:focus {
+    outline: none;
+  }
+ .search-icon{
+    color:rgb(192, 192, 192);
+ }  
+  .icons a,
+  .last-icons a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }  
+  .icons a:hover,
+  .last-icons a:hover {
+    color: rgb(171,229,103);
+  }
+  .icons{
+    margin-top:20px;
+  }
+  .icons a:first-child{
+    color:rgb(171,229,103);
+  }
+  .last-icons{
+    margin-top:80px;
+  }
+  .profile-name {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    margin-top:20%;
+  }  
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right:10px;
+  }  
+  .username {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }  
+  .profile-email {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #888;
+    margin-top:-2px;
+  }
+  .logo{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cross-icon{
+    display:none;
+  }

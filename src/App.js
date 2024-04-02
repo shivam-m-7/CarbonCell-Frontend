@@ -1,11 +1,18 @@
+import logo from './logo.svg';
 import './App.css';
-import Sidebar from './Components/Sidebar/Sidebar.jsx'
+import Sidebar from './Component/Sidebar/Sidebar';
+import Dashboard from './Component/DashBoard/Dashboard';
+import { SidebarProvider } from './SidebarContext';
 
 function App() {
   return (
-    <div className="App">
-     <Sidebar/>    
-    </div>
+<SidebarProvider>
+  <div className="App">
+    <Sidebar></Sidebar>
+    <Dashboard/>
+  </div>
+</SidebarProvider>
+    
   );
 }
 
